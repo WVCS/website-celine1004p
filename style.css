@@ -1,7 +1,5 @@
 body {
-  body {
   background-color: #2F3061;
-}
 
 h2 {
   color: #97A7B3;
@@ -10,9 +8,35 @@ h2 {
   letter-spacing: 4px;
   text-shadow: 7px 4px 2.5px black;
 }
+  img {
+    width: 200px;
+  }
 
-img {
-  width: 500px;
-  
 }
+ul{
+  list-style:none;
+  background-color: gray;
+  font-size: 20px;
+    width: 100%;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+    padding: 10px;
+}
+
+li {
+  display: inline;
+  paddingL 8px 40px;
+}
+
+a{
+  font-variant: small-caps;
+}
+
+li a:hover {
+  background-color: white;
+  padding: 18px 18px;
+  opacity: 1;
 }
